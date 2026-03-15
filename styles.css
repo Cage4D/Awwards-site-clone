@@ -6,6 +6,10 @@
   box-sizing: border-box;
 }
 
+body {
+  font-family: "Inter";
+}
+
 .header {
   background: #000000;
   width: 100%;
