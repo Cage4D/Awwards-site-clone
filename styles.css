@@ -33,6 +33,10 @@
     margin-left: 10px;
 }
 
+.nav-middle {
+    margin-left: 5rem;
+}
+
 .nav-middle ul {
     list-style-type: none;
     display: flex;
@@ -45,6 +49,7 @@
 
 .nav-end button {
     font-size: 15px;
+    margin-right: 1rem;
 }
 
 .nav-end button:not(:last-child) {
@@ -56,7 +61,8 @@
 .nav-end button:last-child {
     background-color: #5B6CFF;
     color: #FFFFFF;
-    padding: 13px 12.7812px 15px 13px;
+    padding: 10px 12px 11.54px 12px;
     box-shadow: inset 1px 1px 1px rgba(255, 255, 255, 0.25);
     border-radius: 64px;
+    border: none;
 }
