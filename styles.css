@@ -1,73 +1,112 @@
 *,
 *::before,
 *::after {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 .header {
-    background: #000000;
-    width: 100%;
-    color: white;
+  background: #000000;
+  width: 100%;
+  color: white;
 }
 
 .nav-bar {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    padding: 5px 0;
-    font-family: "Inter";
-    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 5px 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
 }
 
 .nav-start {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 .welcome {
-    display: flex;
-    align-items: flex-end;
-    margin-left: 10px;
+  display: flex;
+  align-items: flex-end;
+  margin-left: 10px;
 }
 
 .nav-middle {
-    margin-left: 5rem;
+  margin-left: 5rem;
 }
 
 .nav-middle ul {
-    list-style-type: none;
-    display: flex;
-    
-    li {
-        margin-right: 1rem;
-        font-size: 15px;
-    }
+  list-style-type: none;
+  display: flex;
+
+  li {
+    margin-right: 1rem;
+    font-size: 15px;
+  }
 }
 
 .nav-end button {
-    font-size: 15px;
-    margin-right: 1rem;
+  font-size: 15px;
+  margin-right: 1rem;
 }
 
 .nav-end button:not(:last-child) {
-    background: none;
-    border: none;
-    color: #FFFFFF;
+  background: none;
+  border: none;
+  color: #ffffff;
 }
 
 .nav-end button:last-child {
-    background-color: #5B6CFF;
-    color: #FFFFFF;
-    padding: 10px 12px 11.54px 12px;
-    box-shadow: inset 1px 1px 1px rgba(255, 255, 255, 0.25);
-    border-radius: 64px;
-    border: none;
+  background-color: #5b6cff;
+  color: #ffffff;
+  padding: 10px 20px 11.54px 20px;
+  box-shadow: inset 1px 1px 1px rgba(255, 255, 255, 0.25);
+  border-radius: 64px;
+  border: none;
 }
 
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: #000000;
 
-.some-random-code {
+  h2 {
+    font-size: 103px;
+    line-height: 121px;
+    font-weight: normal;
+  }
 
+  .hero-about {
+    font-size: 24px;
+    line-height: 31.2px;
+    text-align: center;
+    width: 38ch;
+    margin-top: 1rem;
+  }
 
+  .btn-group {
+    display: flex;
+    margin: 1rem 0;
+    
+    .hero-demo {
+      background-color: #5b6cff;
+      color: #ffffff;
+      padding: 10px 20px 11.54px 20px;
+      box-shadow: inset 1px 1px 1px rgba(255, 255, 255, 0.25);
+      border-radius: 64px;
+      border: none;
+      margin-right: 1rem;
+    }
+    
+    .how-it-works {
+        display: flex;
+        align-items: center;
+        background: transparent;
+        border-radius: 64px;
+        border: 1px solid rgba(255, 255, 255, 0.2);
+        padding: 10px 20px 11.54px 20px;
+        color: #FFFFFF;
+    }
 }
