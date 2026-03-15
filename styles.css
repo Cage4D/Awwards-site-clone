@@ -89,7 +89,7 @@
   .btn-group {
     display: flex;
     margin: 1rem 0;
-    
+
     .hero-demo {
       background-color: #5b6cff;
       color: #ffffff;
@@ -99,14 +99,19 @@
       border: none;
       margin-right: 1rem;
     }
-    
+
     .how-it-works {
-        display: flex;
-        align-items: center;
-        background: transparent;
-        border-radius: 64px;
-        border: 1px solid rgba(255, 255, 255, 0.2);
-        padding: 10px 20px 11.54px 20px;
-        color: #FFFFFF;
+      display: flex;
+      align-items: center;
+      background: transparent;
+      border-radius: 64px;
+      border: 1px solid rgba(255, 255, 255, 0.2);
+      padding: 10px 20px 11.54px 20px;
+      color: #ffffff;
     }
+  }
+  .btn-group > * {
+    font-family: "Inter";
+    font-size: 1rem;
+  }
 }
