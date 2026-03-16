@@ -6,6 +6,10 @@
   box-sizing: border-box;
 }
 
+:root {
+  --margin-left: 6rem;
+}
+
 body {
   font-family: "Inter";
 }
@@ -27,7 +31,7 @@ body {
 .nav-start {
   display: flex;
   align-items: center;
-  padding-left: 5rem;
+  margin-left: var(--margin-left);
 }
 
 .welcome {
@@ -132,14 +136,15 @@ body {
 
 .header-bottom {
   display: flex;
-  justify-content: space-around;
   position: relative;
   margin-top: 1rem;
+  gap: 20rem;
 
   .side-text {
     display: flex;
     flex-direction: column;
     margin-top: 1rem;
+    margin-left: var(--margin-left);
 
     .larger-text {
       font-size: 45px;
