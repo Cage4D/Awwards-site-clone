@@ -235,11 +235,13 @@ div[class^="box"] {
   flex-direction: column;
   margin: 0 var(--margin-left);
   padding-top: 5rem;
+  align-items: center;
 
   .top-text {
     display: flex;
     flex-direction: column;
     gap: 5rem;
+    align-self: flex-start;
   }
 
   .top-text p {
