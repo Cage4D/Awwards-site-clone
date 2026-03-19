@@ -298,3 +298,9 @@ div[class^="box"] {
     }
   }
 }
+
+.powered-top {
+  img {
+    width: 100%;
+  }
+}
