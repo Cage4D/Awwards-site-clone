@@ -339,12 +339,14 @@ div[class^="box"] {
     font-size: 44px;
     line-height: 41px;
     letter-spacing: -2px;
+    margin-bottom: 1rem;
   }
-
+  
   .header-text2 {
     font-size: 236px;
     letter-spacing: -10px;
     line-height: 210.8px;
+    margin-bottom: 1rem;
   }
 
   .header-text3 {
