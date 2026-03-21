@@ -296,7 +296,7 @@ div[class^="box"] {
     align-items: center;
     gap: 8px;
     align-self: center;
-    margin-top: 3rem;
+    margin: 3rem 0;
     padding: 10px 20px 11.54px 20px;
     width: 194.59px;
     border: 1px solid rgba(0, 0, 0, 0.1);
