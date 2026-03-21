@@ -333,4 +333,24 @@ div[class^="box"] {
   position: relative;
   background: #000000;
   color: #ffffff;
+  padding: 2rem var(--margin-left);
+
+  .header-text1 {
+    font-size: 44px;
+    line-height: 41px;
+    letter-spacing: -2px;
+  }
+
+  .header-text2 {
+    font-size: 236px;
+    letter-spacing: -10px;
+    line-height: 210.8px;
+  }
+
+  .header-text3 {
+    text-align: end;
+    font-size: 233px;
+    letter-spacing: -10px;
+    line-height: 210.8px;
+  }
 }
