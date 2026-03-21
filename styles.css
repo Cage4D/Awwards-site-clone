@@ -353,4 +353,20 @@ div[class^="box"] {
     letter-spacing: -10px;
     line-height: 210.8px;
   }
+
+  .image-section {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    margin-top: 4rem;
+
+    .first-img {
+      grid-column: 1 / -1;
+    }
+
+    img {
+      width: 100%;
+    }
+  }
 }
+
