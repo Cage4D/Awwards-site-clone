@@ -370,5 +370,28 @@ div[class^="box"] {
       width: 100%;
     }
   }
+
+  .powered-bottom-features-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    margin: 3rem auto;
+    padding: 10px 20px 11.54px 20px;
+    width: 194.59px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 64px;
+    background: none;
+    font-family: "Inter";
+    color: #FFFFFF;
+
+    p {
+      white-space: nowrap;
+    }
+
+    img {
+      filter: invert(1)
+    }
+  }
 }
 
