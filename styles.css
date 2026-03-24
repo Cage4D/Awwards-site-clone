@@ -341,7 +341,7 @@ div[class^="box"] {
     letter-spacing: -2px;
     margin-bottom: 1rem;
   }
-  
+
   .header-text2 {
     font-size: 236px;
     letter-spacing: -10px;
@@ -383,15 +383,29 @@ div[class^="box"] {
     border-radius: 64px;
     background: none;
     font-family: "Inter";
-    color: #FFFFFF;
+    color: #ffffff;
 
     p {
       white-space: nowrap;
     }
 
     img {
-      filter: invert(1)
+      filter: invert(1);
     }
   }
 }
 
+.drive-revenue {
+  .main-text {
+    p {
+      font-size: 121px;
+      line-height: 128px;
+      align-items: center;
+      letter-spacing: -5px;
+    }
+
+    p:last-child {
+      display: inline-block;
+    }
+  }
+}
