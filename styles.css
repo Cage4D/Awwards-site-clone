@@ -396,6 +396,7 @@ div[class^="box"] {
 }
 
 .drive-revenue {
+  display: flex;
   .main-text {
     p {
       font-size: 121px;
@@ -407,5 +408,10 @@ div[class^="box"] {
     p:last-child {
       display: inline-block;
     }
+  }
+
+  .info-text {
+    display: flex;
+    flex-direction: column;
   }
 }
