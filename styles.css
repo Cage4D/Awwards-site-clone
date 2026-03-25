@@ -416,6 +416,7 @@ div[class^="box"] {
   .info-text {
     display: flex;
     flex-direction: column;
+    gap: 15px;
 
     .big {
       font-size: 57px;
