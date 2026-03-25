@@ -397,6 +397,9 @@ div[class^="box"] {
 
 .drive-revenue {
   display: flex;
+  padding: calc(var(--margin-left) + 1rem) var(--margin-left);
+  justify-content: space-between;
+  background: #F5F5F5;
   .main-text {
     p {
       font-size: 121px;
@@ -413,5 +416,28 @@ div[class^="box"] {
   .info-text {
     display: flex;
     flex-direction: column;
+
+    .big {
+      font-size: 57px;
+      line-height: 70px;
+      letter-spacing: -2px;
+    }
+
+    .small-1 {
+      font-size: 19px;
+      line-height: 26px;
+      letter-spacing: -0.2px;
+    }
+
+    .small-2 {
+      font-size: 15px;
+      line-height: 21px;
+    }
+
+    .divider {
+      width: 421.89px;
+      height: 1px;
+      background: rgba(0, 0, 0, 0.1);
+    }
   }
 }
